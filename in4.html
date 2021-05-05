@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="st4.css">
+        <title>電卓</title>
+    </head>
+    <body>
+    <input style="font-size:28px; text-align: right;" ><br>
+            <button onclick="yuuki('7')" >7</button>
+            <button onclick="yuuki('8')" >8</button>
+            <button onclick="yuuki('9')" >9</button>
+            <button onclick="yuuki( '+' )" >+</button><br>
+            <button onclick="yuuki('4')" >4</button>
+            <button onclick="yuuki('5')" >5</button>
+            <button onclick="yuuki('6')" >6</button>
+            <button onclick="yuuki( '-' )" >-</button><br>
+            <button onclick="yuuki('1')" >1</button>
+            <button onclick="yuuki('2')" >2</button>
+            <button onclick="yuuki('3')" >3</button>
+            <button onclick="yuuki( '*' )" >*</button><br>
+            <button onclick="yuuki('0')" >0</button>
+            <button onclick="yuuki('00')" >00</button>
+            <button onclick="yuuki('.')" >.</button>
+            <button onclick="yuuki('/')" >/</button><br>
+            
+            <!-- ('')これで、消された時の文字が表示されないようにしてる？-->
+             <button onclick="update(' ')" style="width:180px;">AC</button> 
+            <button onclick="calc()" style="width:180px;">=</button>
+            
+            <script type="text/javascript" src="po4.js"></script>
+            
+</body>
+</html>
+
+
+<!-- 
+・style＝使うと、その中にcssが指定できる
+・inputは空欄の中で文字を入れることができるようになるタグ
+・appendは追加と読む。
+・onclick属性とは
+　まずはonclick属性とは何かについて知っておきましょう。
+　onclick属性では、要素をクリックしたときに、どのような処理を行うかを設定することができます。
+　処理という言葉はHTMLだけでは聞かないなと思ったかもしれません。
+　このonclick属性はより複雑な処理をすることができるJavaScriptと一緒に使われることが多いです。
+　このonclick属性が設定された要素をクリックすることで、onclick属性に指定したJavaScriptの関数などが実行されるようになります。
+-->
