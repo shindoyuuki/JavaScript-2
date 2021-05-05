@@ -1,0 +1,17 @@
+
+button
+        {
+            width: 88px;
+            height: 35px;
+            border-radius: 6px;
+            margin:2px -1px 0;
+        }
+        
+input
+        {
+            background: black;
+            color:white;
+            width:360px;
+            height:40px;
+        }
+        
